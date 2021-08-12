@@ -1,7 +1,9 @@
 {
   "name": "vue3-intercom",
+  "license": "MIT",
+  "author": "tomekhub",
   "version": "1.0.0",
-  "description": "",
+  "description": "Intercom plugin for vue 3",
   "main": "dist/vue3-intercom.ssr.js",
   "browser": "dist/vue3-intercom.esm.js",
   "module": "dist/vue3-intercom.esm.js",

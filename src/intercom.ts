@@ -48,6 +48,7 @@ class IntercomPlugin {
         window.Intercom('boot', options);
     }
     public shutdown() {
+        this.emitter.all.clear();
         window.Intercom('shutdown');
     }
     public update(...options: any[]) {
